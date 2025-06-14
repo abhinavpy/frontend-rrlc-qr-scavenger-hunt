@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Wood‑grain background (light tan/beige) */
+  --color-wood-bg: #D2BAA3;
+
+  /* Dark brown header overlay */
+  --color-rrlc-brown: #593C1B;
+
+  /* Medium olive‑green panels */
+  --color-rrlc-green-medium: #5A8E3D;
+
+  /* Dark forest‑green panels */
+  --color-rrlc-green-dark: #387535;
+
+  /* Accent gold/yellow banner */
+  --color-rrlc-gold: #F2C94C;
+
+  /* White (for text & form fields) */
+  --color-white: #FFFFFF;
+
+  /* Charcoal nav text (near‑black) */
+  --color-rrlc-charcoal: #2C2C2C;
+}
