@@ -123,6 +123,11 @@ const Login = () => {
                 </div>
               ) : 'Sign In'}
             </button>
+            {loading && (
+              <p className="text-xs text-rrlc-charcoal mt-3 text-center">
+                This might take more than a minute if the server wasn't accessed in a while, please wait patiently. (Cold start)
+              </p>
+            )}
           </form>
           
           <div className="mt-6 text-center">
